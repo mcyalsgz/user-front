@@ -147,7 +147,7 @@ export default {
         console.log("In result " + keyword);
         // that.$router.replace({ path: `/searchResultByTitle/${keyword}` });
         window.location.href =
-          "http://test.buaapsy.com:8888" + `#/searchResultByTitle/${keyword}`;
+          "http://buaapsy.com:8080" + `#/searchResultByTitle/${keyword}`;
         window.location.reload(false);
       }
     },
