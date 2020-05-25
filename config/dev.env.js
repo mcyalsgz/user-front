@@ -6,4 +6,5 @@ module.exports = merge(prodEnv, {
     NODE_ENV: '"development"',
     BASE_API: '"http://test.buaapsy.com:8080/"',
     //BASE_API: '"http://localhost:8080"',
+    PORT:8080,
 })
